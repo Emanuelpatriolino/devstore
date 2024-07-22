@@ -107,9 +107,9 @@ img{
     /* background-color: red; */
 }
 
-.tamanhos input{
+.input-tamanho-sapato{
     background-color: black;
-    width: 40px;
+    width: 100px;
 }
 
 .tamanhos p{

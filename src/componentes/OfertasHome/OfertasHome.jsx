@@ -12,6 +12,8 @@ import foto22 from "../../assets/sapatos/22.jpeg"
 import foto23 from "../../assets/sapatos/23.jpeg"
 import foto24 from "../../assets/sapatos/24.jpeg"
 
+import { Link } from "react-router-dom";
+
 import "./ofertashome.css"
 
 function OfertasHome(){
@@ -48,7 +50,7 @@ function OfertasHome(){
                                         <p>Oferta por tempo limitado</p>
                                     </div>
                                     <p className="p2-texts-box-left">Toma lá, Toma cá, de todos os lados uma oferta especial para você!</p>
-                                    <button>Conferir Agora</button>
+                                    <Link to="/visualizar" > <button>Conferir Agora</button></Link>
                                 </div>
                             </div>
                             <div className="box-right">
@@ -66,7 +68,7 @@ function OfertasHome(){
                                         <p>Oferta por tempo limitado</p>
                                     </div>
                                     <p className="p2-texts-box-left">Oferta especial para você elas!</p>
-                                    <button>Conferir Agora</button>
+                                    <Link to="/visualizar" > <button>Conferir Agora</button></Link>
                                 </div>
                             </div>
                             <div className="box-right">
@@ -84,7 +86,7 @@ function OfertasHome(){
                                         <p>Oferta por tempo limitado</p>
                                     </div>
                                     <p className="p2-texts-box-left">O conforto que os seus pés merece está logo aqui!</p>
-                                    <button>Conferir Agora</button>
+                                    <Link to="/visualizar" > <button>Conferir Agora</button></Link>
                                 </div>
                             </div>
                             <div className="box-right">

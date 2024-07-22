@@ -67,6 +67,7 @@ function ViewProduto(){
                             <p>Tamanho</p>
                             <div className="tamanhos">
                                 <input 
+                                className="input-tamanho-sapato"
                                 type="range"
                                 name="" 
                                 id="" min={36}

@@ -21,7 +21,7 @@ function DestaqueHome() {
       <div className="em-alta-ver-todos">
         <h4>Produtos em alta</h4>
         <span>
-          <Link>Ver todos <FaLongArrowAltRight /></Link>
+          <Link to="/produtos">Ver todos <FaLongArrowAltRight /></Link>
         </span>
 
       </div>

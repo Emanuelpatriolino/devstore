@@ -57,6 +57,7 @@
     border: none;
     background-color: #cf1030;
     color: white;
+    cursor: pointer;
 }
 
 .texts-box-left{
@@ -216,7 +217,6 @@
         width: 80%;
         max-width: 500px;
         min-width: 300px;
-        background-color: aliceblue;
         border-radius: 4px 8px 15px 22px ;
         
     }

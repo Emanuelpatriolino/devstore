@@ -1,6 +1,8 @@
 import "./produtosapato.css"
 import sapatosApi from "../../assets/sapatos/sapatos";
 
+import { Link } from "react-router-dom";
+
 import foto1 from "../../assets/sapatos/1.jpeg"
 import foto2 from "../../assets/sapatos/2.jpeg"
 import foto3 from "../../assets/sapatos/3.jpeg"
@@ -15,7 +17,7 @@ import foto10 from "../../assets/sapatos/10.jpeg"
 const Foto01 = () => {
     return(
             <div>
-                <img src={foto1} alt="tenis slake abc do amor" />
+                <Link to="/visualizar" ><img src={foto1} alt="tenis slake abc do amor" /></Link>
             </div>
           
     )
@@ -24,7 +26,7 @@ const Foto01 = () => {
 const Foto02 = () => {
     return(
             <div>
-                <img src={foto2} alt="tenis slake abc do amor" />
+                <Link to="/visualizar" ><img src={foto2} alt="tenis slake abc do amor" /></Link>
             </div>
           
     )
@@ -33,7 +35,7 @@ const Foto02 = () => {
 const Foto03 = () => {
     return(
             <div>
-                <img src={foto3} alt="tenis slake abc do amor" />
+                <Link to="/visualizar" ><img src={foto3} alt="tenis slake abc do amor" /></Link>
             </div>
           
     )
@@ -42,7 +44,7 @@ const Foto03 = () => {
 const Foto04 = () => {
     return(
             <div>
-                <img src={foto4} alt="tenis slake abc do amor" />
+                <Link to="/visualizar" ><img src={foto4} alt="tenis slake abc do amor" /></Link>
             </div>
           
     )

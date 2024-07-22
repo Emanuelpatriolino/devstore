@@ -14,12 +14,11 @@ function Header (){
                         <h1>Dev store</h1>
                     </div>
                     <div className='header-input-pesquisar'>
-                        <input type="text" id='pesquisar'
+                        <input className='input-pesquisar' type="text" id='pesquisar'
                         placeholder=' Pesquise o que procura'/>
-                        <FaSearch className='Search' />
                     </div>
                     <div className='btn-cad-login'>
-                        <Link>Cadastre-se</Link>
+                        <Link className='btn-cadastrar'>Cadastre-se</Link>
                         <a className='btn-entrar' href='https://mui.com/base-ui/react-tabs/'>Entrar</a>
                         <Link>
                             <MdOutlineLocalGroceryStore className='div-btn-store-icon' />
