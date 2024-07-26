@@ -20,7 +20,7 @@ function ViewProduto() {
     const [selectedColor, setSelectedColor] = useState('#f74453');
 
     const sizes = [39, 40, 41, 42, 43];
-    const colors = ['#82e4fa', '#f74453', '#4c4b4b', '#6265d3'];
+    const colors = ['#82e4fa', '#FD8989', '#4c4b4b', '#6265d3'];
 
     const handleSizeClick = (size) => {
         setSelectedSize(size);
