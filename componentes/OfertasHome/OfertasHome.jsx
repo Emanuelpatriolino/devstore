@@ -44,9 +44,9 @@ function OfertasHome(){
                         <div  className="slides">
                             <div className="box-left">
                                 <div className="texts-box-left">
-                                    <p className="p1-texts-box-left">As melhores ofertas aqui na Dev Store </p>
+                                    <p className="p1-texts-box-left">Melhores ofertas personalizadas </p>
                                     <div className="center-box-left">
-                                        <h1 className="h1-ofertas">O Tênis dos sonhos chegou</h1>
+                                        <h1 className="h1-ofertas">Queima de Stoque Nike 🔥</h1>
                                         <p>Oferta por tempo limitado</p>
                                     </div>
                                     <p className="p2-texts-box-left">Toma lá, Toma cá, de todos os lados uma oferta especial para você!</p>
@@ -62,9 +62,9 @@ function OfertasHome(){
                         <div  className="slides">
                             <div className="box-left">
                                 <div className="texts-box-left">
-                                    <p className="p1-texts-box-left">As melhores ofertas aqui na Dev Store </p>
+                                    <p className="p1-texts-box-left">Oferta especial </p>
                                     <div className="center-box-left">
-                                        <h1 className="h1-ofertas">O Queridinho delas</h1>
+                                        <h1 className="h1-ofertas">Air Jordan edição de colecionador</h1>
                                         <p>Oferta por tempo limitado</p>
                                     </div>
                                     <p className="p2-texts-box-left">Oferta especial para você elas!</p>

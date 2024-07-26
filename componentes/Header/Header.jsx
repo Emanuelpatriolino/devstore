@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import "./header.css"
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { FaNodeJs,FaSearch } from "react-icons/fa";
+import digital from "./assets/images/digitalogo.png"
 
 
 function Header (){
@@ -10,7 +11,8 @@ function Header (){
             <div className='header'>
                 <div className='header-options'>
                     <div className='header-logo'>
-                    <FaNodeJs className='icon-logo-js' />
+                    {/*<FaNodeJs className='icon-logo-js' />*/}
+                    <img src="./assets/images/digitalogo.png"/>
                         <h1>Dev store</h1>
                     </div>
                     <div className='header-input-pesquisar'>

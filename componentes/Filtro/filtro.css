@@ -50,7 +50,9 @@
     height: 13px;
 }
 
-
+.check-input-filtro button:active {
+    background-color: fuchsia;
+  }
 @media screen and (max-width: 1000px) {
      
 .filtro{
