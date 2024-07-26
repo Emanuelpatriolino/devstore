@@ -65,7 +65,7 @@ function ViewProduto() {
                         </p>
                     </div>
                     <div className="avaliações">
-                        4.5 de 5 | 27 avaliações
+                        4.5 de 5 | 28 avaliações
                     </div>
                     <div className="preço-descrição">
                         <p>R$ <span>219,90</span> <s>490,00</s></p>
