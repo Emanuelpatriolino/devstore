@@ -66,11 +66,11 @@
     margin: 0 0.5rem;
     width: 25px;
     height: 25px;
-    color: #c4125c;
+    color: #ffffff;
 }
 
 .icons-fa-footer:hover{
-    color: aliceblue;
+    color: #c4125c;
 }
 
 .box-text-center{

@@ -9,6 +9,8 @@ import foto5 from "../../assets/sapatos/5.jpeg"
 import foto6 from "../../assets/sapatos/6.jpeg"
 import foto7 from "../../assets/sapatos/7.jpeg"
 import foto8 from "../../assets/sapatos/8.jpeg"
+import kswiss from "../../assets/sapatos/kswiss.png"
+
 
 import {ProdutoSapato, ProdutoSapato1, ProdutoSapatoCD, ProdutoSapatoCD1 } from "../ProdutoSapato/ProdutoSapato";
 
@@ -34,29 +36,29 @@ function DestaqueHome() {
       </div>
       <div className="container" >
         <div className="produto">
-            <img src={foto5} alt="tenis slake abc do amor" />
+            <img src={kswiss} alt="tenis slake abc do amor" />
             <p>Tênis</p>
-            <h3>Tenis abc do amor slake - Feminino</h3>
-            <h4>De <s>R$ 450,00</s> Por  R$199,90</h4>
+            <h3>K-Swiss V8 - Masculino</h3>
+            <h4>De <s>R$ 200,00</s> Por  R$100,00</h4>
           </div>
           <div className="produto">
-            <img src={foto6} alt="tenis slake abc do amor" />
+            <img src={kswiss} alt="tenis slake abc do amor" />
             <p>Tênis</p>
-            <h3>Tenis abc do amor slake - Feminino</h3>
-            <h4>De <s>R$ 450,00</s> Por  R$199,90</h4>
+            <h3>K-Swiss V8 - Masculino</h3>
+            <h4>De <s>R$ 200,00</s> Por  R$100,00</h4>
           </div>
           <div className="break"></div>
           <div className="produto">
-            <img src={foto7} alt="tenis slake abc do amor" />
+            <img src={kswiss} alt="tenis slake abc do amor" />
             <p>Tênis</p>
-            <h3>Tenis abc do amor slake - Feminino</h3>
-            <h4>De <s>R$ 450,00</s> Por  R$199,90</h4>
+            <h3>K-Swiss V8 - Masculino</h3>
+            <h4>De <s>R$ 200,00</s> Por  R$100,00</h4>
           </div>
           <div className="produto">
-            <img src={foto8} alt="tenis slake abc do amor" />
+            <img src={kswiss} alt="tenis slake abc do amor" />
             <p>Tênis</p>
-            <h3>Tenis abc do amor slake - Feminino</h3>
-            <h4>De <s>R$ 450,00</s> Por  R$199,90</h4>
+            <h3>K-Swiss V8 - Masculino</h3>
+            <h4>De <s>R$ 200,00</s> Por  R$100,00</h4>
           </div>
       </div>
     </div>
